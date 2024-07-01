@@ -1,0 +1,57 @@
+/* Style for select container */
+.select-input {
+margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Style for label */
+.select-input label {
+display: block;
+margin-bottom: 5px; /* Adjust as needed */
+font-weight: bold;
+color: #964b00 ;
+}
+
+/* Style for select */
+.select-input select {
+width: 100%;
+padding: 10px; /* Adjust as needed */
+font-size: 16px; /* Adjust as needed */
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #ffe4c4;
+transition: border-color 0.3s ease;
+}
+
+/* Hover and focus styles for select */
+.select-input select:hover,
+.select-input select:focus {
+border-color: #999;
+}
+.test{
+color: #964b00;
+}
+
+.fixed-div {
+    position: fixed !important;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    z-index: 1000;
+}
+/* Example of media query with multiple conditions */
+@media only screen and (min-width: 600px) and (max-width: 900px)  {
+    .fixed-div {
+    left: 10px; /* Center horizontally */
+    width: 30%; /* Adjust width */
+    max-width: 300px; /* Set a maximum width */
+    border-radius: 10px;
+    z-index: 1000;
+    }
+}
+
+
+

@@ -1,0 +1,29 @@
+.picture-form {
+    text-align: center;
+    background-color: #efdecd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 60px;
+  }
+  
+  .choose-picture, .saving-picture {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .saving-picture {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .choose-picture, .saving-picture {
+      width: 100%;
+    }
+  }
